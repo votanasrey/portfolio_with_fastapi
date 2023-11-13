@@ -119,7 +119,7 @@ const Techs = () => {
       </div>
 
       <ScrollLink
-        to="Education"
+        to="Certificate"
         smooth
         duration={500}
         className="absolute bottom-2 -left-full md:left-1/2 md:-translate-x-1/2 cursor-pointer hover:text-primary-color"

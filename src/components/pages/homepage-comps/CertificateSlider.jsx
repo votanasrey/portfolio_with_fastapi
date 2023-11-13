@@ -12,7 +12,7 @@ const CertificateSlider = ({ certificates }) => {
         dots: true,
         infinite: false,
         speed: 500,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         draggable: true,
         rows: 2,
         responsive: [{

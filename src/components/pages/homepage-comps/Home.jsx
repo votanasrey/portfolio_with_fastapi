@@ -15,13 +15,6 @@ const Home = () => {
             <h2 className='rounded-md bg-sky-700 max-w-max px-6 inline text-xl md:text-3xl lg:text-4xl font-semibold text-white'>Digital Data Scientist</h2>
             <p className='text-gray-300 py-4 max-x-md text-justify'> Votana is a Digital Data Scientist with over 3 years of experiences. He specializes in extracting meaningful insights from data, building predictive models, and delivering data-driven solutions and enable new business with increable Artificial Intelligence Technologies. He has a proven track record of collaborating with cross-functional teams and helping businesses thrive through data-driven decision-making.</p>
 
-            <div className='hidden desktop:flex'>
-              <Link to='About' smooth duration={500} className='group text-white font-semibold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-sky-700 from-green-400 to-primary-color cursor-pointer mx-auto md:mx-0'>
-                About Me
-                <span className='group-hover:rotate-90 duration-300'><MdOutlineKeyboardArrowRight size={25} className='ml-1' /></span>
-              </Link>
-            </div>
-
             <MobileSocialLinks />
           </div>
 

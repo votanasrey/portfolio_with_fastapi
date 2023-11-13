@@ -13,7 +13,7 @@ const MobileSocialLinks = () => {
                     <FaLinkedin size={20} /> LinkedIn
                 </>
             ),
-            href: 'https://www.linkedin.com/in/diegotellezc/',
+            href: 'https://www.linkedin.com/in/votana-srey-897947199/',
             style: 'rounded-tr-md'
         },
         {
@@ -23,7 +23,7 @@ const MobileSocialLinks = () => {
                     <FaGithub size={20} /> GitHub 
                 </>
             ),
-            href: 'https://github.com/diegotellezc'
+            href: 'https://github.com/VotanaSrey'
         },
         {
             id: 3,
@@ -32,7 +32,7 @@ const MobileSocialLinks = () => {
                     <HiOutlineMail size={20} /> Mail
                 </>
             ),
-            href: 'mailto:diegotellezdev@gmail.com'
+            href: 'mailto:votana.srey@gmail.com'
         },
         {
             id: 4,
@@ -41,7 +41,7 @@ const MobileSocialLinks = () => {
                     <BsFillPersonLinesFill size={20} /> Resume 
                 </>
             ),
-            href: '/FullStack_Developer_DiegoTellez.pdf',
+            href: '/votanasrey_resume.pdf',
             style: 'rounded-br-md',
             download: true
         }
@@ -52,7 +52,7 @@ const MobileSocialLinks = () => {
             <ul className="flex gap-2 flex-wrap justify-center">
                 {
                     links.map(({id, child, href, style, download}) => (
-                        <li key={id} className={"flex items-center gap-2 w-28 h-9 px-4 bg-gradient-to-t from-green-400/50 to-primary-color/50 rounded-md" + " " + style }>
+                        <li key={id} className={"flex items-center gap-2 w-28 h-9 px-4 bg-gradient-to-t from-blue-400/50 to-sky-color/50 rounded-md" + " " + style }>
                             <a href={href} className="flex gap-3 items-center w-full text-white text-sm" download={download} target="_blank" rel="noreferrer">
                             {child}
                             </a>

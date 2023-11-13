@@ -73,6 +73,13 @@ const Career = () => {
                     </section>
                 </article>
             </section>
+            <ScrollLink
+                to="Education"
+                smooth
+                duration={500}
+                className="absolute bottom-5 -left-full md:left-1/2 md:-translate-x-1/2 cursor-pointer hover:text-sky-color">
+                <i className="bx bx-chevron-down text-7xl text-gray-400 animate-bounce font hover:text-sky-color"></i>
+            </ScrollLink>
         </section>
     )
 }
