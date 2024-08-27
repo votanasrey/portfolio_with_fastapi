@@ -33,18 +33,19 @@ const SocialLinks = () => {
                 </>
             ),
             href: 'mailto:votana.srey@gmail.com'
-        },
-        {
-            id: 4,
-            child: (
-                <>
-                Resume <BsFillPersonLinesFill size={30} />
-                </>
-            ),
-            href: '/votanasrey_resume.pdf',
-            style: 'rounded-br-md',
-            download: true
         }
+        // ,
+        // {
+        //     id: 4,
+        //     child: (
+        //         <>
+        //         Resume <BsFillPersonLinesFill size={30} />
+        //         </>
+        //     ),
+        //     href: '/votanasrey_resume.pdf',
+        //     style: 'rounded-br-md',
+        //     download: true
+        // }
     ]
 
     return (

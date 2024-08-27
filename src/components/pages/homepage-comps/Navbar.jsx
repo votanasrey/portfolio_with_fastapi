@@ -7,38 +7,38 @@ const Navbar = () => {
     const links = [
         {
             id: 1,
-            link: "Home"
+            link: ""
         },
         {
             id: 2,
-            link: "Career"
+            link: ""
         },
         {
             id: 3,
-            link: "Projects"
+            link: ""
         },
         {
             id: 4,
-            link: 'Technologies'
+            link: ''
         },
         {
             id: 5,
-            link: "Certificates"
+            link: ""
         },
         
         {
             id: 6,
-            link: "Activities"
+            link: ""
         },
 
         {
             id: 7,
-            link: "Education"
+            link: ""
         },
 
         {
             id: 8,
-            link: "Contact"
+            link: ""
         }
     ]
 

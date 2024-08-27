@@ -12,6 +12,19 @@ const Edition = () => {
 
                 <article className='bg-gray-d relative border-dotted border-2 border-sky-500 rounded-lg overflow-hidden'>
                     <div>
+                        <img src="/images/social_activities/asean_conference.jpeg" alt="ASEAN Conference" loading='lazy' />
+                    </div>
+                    <section className='p-6'>
+                        <h4>ASEAN CONFERENCE OF EMERGING TECHNOLOGIES (ACET) 2022</h4>
+                        <p className='text-gray-400 text-md mt-2'>ACET is the ASEAN conference that focuses on the latest research and Development in digital technology but more specifically on Natural Language Processing (NLP), Data Science, Networking & IoT, Artificial Intelligence (AI). ACET conference aims to connect researchers’ knowledge and Building applications for smarter societies. RESEARCH, SHARE, CONNECT : Bringing together researchers from local and international communities through a forum for academicians, professionals, and researchers to discuss and exchange research results, innovative ideas, and experiences, fostering advancements in the field.</p>
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7006625985164967936/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7006625985164967936%29" target='_blank' className='bg-gradient-to-t from-blue-400 to-sky-color p-1 absolute bottom-0 right-0 text-lg'>
+                            <i className='bx bx-link text-black'></i>
+                        </a>
+                    </section>
+                </article>
+                
+                <article className='bg-gray-d relative border-dotted border-2 border-sky-500 rounded-lg overflow-hidden'>
+                    <div>
                         <img src="/images/social_activities/asean_india_hackathon.jpeg" alt="ASEAN India Hackathon" loading='lazy' />
                     </div>
                     <section className='p-6'>
@@ -23,22 +36,24 @@ const Edition = () => {
                     </section>
                 </article>
 
-                <article className='bg-gray-d relative border-dotted border-2 border-sky-500 rounded-lg overflow-hidden'>
-                    <div>
-                        <img src="/images/social_activities/asean_conference.jpeg" alt="ASEAN Conference" loading='lazy' />
-                    </div>
-                    <section className='p-6'>
-                        <h4>ASEAN CONFERENCE OF EMERGING TECHNOLOGIES (ACET) 2022</h4>
-                        <p className='text-gray-400 text-md mt-2'>ACET is the ASEAN conference that focuses on the latest research and Development in digital technology but more specifically on Natural Language Processing (NLP), Data Science, Networking & IoT, Artificial Intelligence (AI). ACET conference aims to connect researchers’ knowledge and Building applications for smarter societies. RESEARCH, SHARE, CONNECT : Bringing together researchers from local and international communities through a forum for academicians, professionals, and researchers to discuss and exchange research results, innovative ideas, and experiences, fostering advancements in the field.</p>
-                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7006625985164967936/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7006625985164967936%29" target='_blank' className='bg-gradient-to-t from-blue-400 to-sky-color p-1 absolute bottom-0 right-0 text-lg'>
-                            <i className='bx bx-link text-black'></i>
-                        </a>
-                    </section>
-                </article>
+            
             </section>
 
             {/* Seccion derecha */}
             <section className='grid gap-10'>
+            <article className='bg-gray-d relative border-dotted border-2 border-sky-500 rounded-lg overflow-hidden'>
+                    <div>
+                        <img src="/images/social_activities/ds_application_sharing.jpg" alt="ds_application_sharing" loading='lazy' />
+                    </div>
+                    <section className='p-6'>
+                        <h4>Data-Driven Technologies and Its Application</h4>
+                        <p className='text-gray-400 text-md mt-2'>Phnom Penh, August 26th, 2024 - the Institute of Digital Research and Innovation of CADT held a workshop on "Data Driven Technologies and Its Applications" attended by over 160 participants from diverse sectors, including students, researchers, and industry professionals. The workshop showcases applications and technologies used in the banking and research sector. The speakers also showed various tools and architecture being applied and carried out in real work place along with use cases. Disseminating these data science technologies provided a comprehensive overview of the latest advancements in practical use across various industries. Participants also gained valuable insights into the power of data-driven decision-making and explored real-world applications.</p>
+                        <a href="https://www.facebook.com/photo?fbid=834033758918535&set=pcb.834034102251834" target='_blank' className='bg-gradient-to-t from-blue-400 to-sky-color p-1 absolute bottom-0 right-0 text-lg'>
+                            <i className='bx bx-link text-black'></i>
+                        </a>
+                    </section>
+                </article>
+
             <article className='bg-gray-d relative border-dotted border-2 border-sky-500 rounded-lg overflow-hidden'>
                     <div>
                         <img src="/images/social_activities/apac_digital_id.png" alt="APAC Digital Identity" loading='lazy' />
@@ -64,6 +79,7 @@ const Edition = () => {
                         </a>
                     </section>
                 </article>
+
             </section>
         </section>
     )
