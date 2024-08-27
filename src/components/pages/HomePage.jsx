@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Navbar from "./homepage-comps/Navbar"
+// import Navbar from "./homepage-comps/Navbar"
 import Home from "./homepage-comps/Home"
 import About from "./homepage-comps/Career"
 import MyProjects from "./homepage-comps/MyProjects"
@@ -50,7 +50,7 @@ const HomePage = () => {
 
     return (
         <>
-            <Navbar />
+            {/* <Navbar /> */}
             <Home />
             <About />
             <Education />
